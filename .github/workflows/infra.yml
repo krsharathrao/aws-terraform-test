@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - ep1-oidc-s3
+      - main
     paths:
       - "terraform/infrastructure/**"
       - ".github/workflows/infra.yml"
